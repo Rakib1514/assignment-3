@@ -151,28 +151,32 @@
     <!-- Spaces Section -->
 
     <section
-      class="container mx-auto py-12 lg:py-24 grid grid-cols-1 md:grid-cols-2 gap-9 px-4"
+      class="container mx-auto py-12 lg:py-24 grid grid-cols-1 lg:grid-cols-2 gap-9 px-4 relative"
     >
       <!-- Content -->
       <div>
+       <div class="flex justify-center lg:justify-start">
         <button class="mb-4 text-sm bg-white rounded-full py-2 px-3">
           <i class="mr-1 fa-solid fa-arrow-right"></i>About us
         </button>
+       </div>
 
         <h2
-          class="mb-5 lg:text-5xl text-2xl font-extrabold text-center md:text-start"
+          class="mb-5 lg:text-5xl text-2xl font-extrabold text-center lg:text-start"
         >
           We design thoughtful,<br />
           liveable spaces
         </h2>
-        <p class="mb-12 lg:mb-20 text-gray-600 text-center md:text-start">
+        <p class="mb-12 lg:mb-20 text-gray-600 text-center lg:text-start">
           The barn house captivates with its blend of rustic charm and modern
           sophistication, featuring weathered wood, sleek metal accents.
         </p>
 
         <!-- Card 1 -->
         <div class="bg-white p-6 rounded-lg flex items-center gap-7 mb-10">
-          <div><i class="p-3 text-6xl fa-regular fa-building"></i></div>
+          <div>
+            <img src="./assets/commercial.png" alt="">
+          </div>
           <div class="w-1/2">
             <h3 class="text-xl font-extrabold mb-4">Commercial</h3>
             <p class="text-gray-600">
@@ -185,7 +189,9 @@
         <!-- Card 2 -->
 
         <div class="bg-white p-6 rounded-lg flex items-center gap-7">
-          <div><i class="text-6xl fa-solid fa-house"></i></div>
+          <div>
+            <img src="./assets/residential.png" alt="">
+          </div>
           <div class="w-1/2">
             <h3 class="text-xl font-extrabold mb-4">Residential</h3>
             <p class="text-gray-600">
@@ -200,12 +206,22 @@
       <div>
         <img src="./assets/Rectangle.png" alt="" class="w-full" />
       </div>
+      <!-- vector absolut position -->
+      <div class="absolute lg:block hidden top-9 -left-10">
+        <img src="./assets/Vector.png" alt="">
+      </div>
     </section>
 
     <!-- Our Works Process -->
 
     <section class="container mx-auto py-12 lg:py24 px-4">
       <!-- Content -->
+      <div>
+        <div class="flex justify-center ">
+         <button class="mb-4 text-sm bg-white rounded-full py-2 px-3">
+           <i class="mr-1 fa-solid fa-arrow-right"></i>How we Works
+         </button>
+        </div>
       <div>
         <h2 class="mb-5 lg:text-5xl text-2xl font-extrabold text-center">
           Our Works Process
@@ -276,5 +292,99 @@
         </div>
       </div>
     </section>
+
+    <!-- Our Latest Portfolio -->
+
+    <section class="container mx-auto py-12 lg:py24 px-4 bg-white">
+      <!-- Seaction Header -->
+        <div>
+          <div class="flex justify-center ">
+           <button class=" mb-4 text-sm bg-themeBg  rounded-full py-2 px-3">
+             <i class="mr-1 fa-solid fa-arrow-right"></i>Explore our Latest works
+           </button>
+          </div>
+          <h2 class="mb-5 lg:text-5xl text-2xl font-extrabold text-center">
+            Our Latest Portfolio
+          </h2>
+          <p class="mb-12 lg:mb-20 text-gray-600 mx-auto lg:w-5/12 text-center">
+            The barn house captivates with its blend of rustic charm and modern sophistication, featuring weathered wood, sleek metal accents.
+          </p>
+      </div>
+
+      <!-- Cards container 1 -->
+       <div class="mb-6 grid grid-cols-1  lg:grid-cols-3 gap-6">
+
+        <!-- card 1 -->
+        <div class=" p-6 md:flex gap-5 border-solid border-2 border-bodyBg col-span-2 rounded-xl">
+          <figure class="lg:w-1/2">
+            <img class="w-full" src="./assets/img1.png" alt="">
+          </figure>
+          <div class="flex flex-col justify-between">
+            <h2 class="text-gray-700 font-extrabold text-2xl "> Commercial</h2>
+            <p class="text-gray-600">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+           <div>
+            <button class="text-xl font-extrabold">View Details<i
+              class="ml-2 bg-themeClr p-2 rounded-full -rotate-45 fa-solid fa-arrow-right"
+            ></i></button>
+           </div>
+          </div>
+        </div>
+
+        <!-- card 2 -->
+
+        <div class="p-6 flex gap-5 border-solid border-2 border-bodyBg justify-center rounded-xl">
+          <figure class="w-full">
+            <img class="w-full" src="./assets/img2.png" alt="">
+          </figure>
+        </div>
+       </div>
+
+       <!-- Card Container 2-->
+        
+       <div class="grid grid-cols-1 lg:grid-cols-4 gap-6">
+
+        <!-- card 3 -->
+        <div class="p-6 flex gap-5 border-solid border-2 border-bodyBg justify-center rounded-xl">
+          <figure class="w-full" >
+            <img class="w-full" src="./assets/img3.png" alt="">
+          </figure>
+        </div>
+
+        <!-- Card 4 -->
+        <div class="p-6 md:flex  gap-5 border-solid border-2 border-bodyBg col-span-2 rounded-xl">
+          <figure class="w-full">
+            <img class="w-full" src="./assets/img4.png" alt="">
+          </figure>
+          <div class="flex flex-col justify-between">
+            <h2 class="text-gray-700 font-extrabold text-2xl "> Commercial</h2>
+            <p class="text-gray-600">The barn house captivates with its blend of rustic charm and modern. The barn house captivates with its blend of rustic charm and modern .</p>
+           <div>
+            <button class="text-xl font-extrabold">View Details<i
+              class="ml-2 bg-themeClr p-2 rounded-full -rotate-45 fa-solid fa-arrow-right"
+            ></i></button>
+           </div>
+          </div>
+        </div>
+
+        <!-- Card 5 -->
+        <div class="p-6 flex gap-5 border-solid border-2 border-bodyBg justify-center rounded-xl">
+          <figure class="w-full" >
+            <img class="w-full" src="./assets/img5.png" alt="">
+          </figure>
+        </div>
+
+
+
+       </div>
+     </div>
+    
+    </section>
+
+
+
+
+
+
+
   </body>
 </html>
