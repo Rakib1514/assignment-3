@@ -161,62 +161,68 @@
 
     <!-- Spaces Section -->
 
-    <section
-      class="container mx-auto py-12 lg:py-24 grid grid-cols-1 lg:grid-cols-2 gap-9 px-4 relative"
-    >
-      <!-- Content -->
-      <div>
-       <div class="flex justify-center lg:justify-start">
-        <button class="mb-4 text-sm bg-white rounded-full py-2 px-3">
-          <i class="mr-1 fa-solid fa-arrow-right"></i>About us
-        </button>
-       </div>
+    <section class="container mx-auto relative py-10">
+      <div class="hero">
+        <div class="hero-content flex-col lg:flex-row">
+        <!-- Content -->
+        <div class="flex flex-col gap-6">
+            <div class="flex justify-center lg:justify-start">
+                <button class="text-sm bg-white rounded-full py-2 px-3">
+                  <i class="mr-1 fa-solid fa-arrow-right"></i>About us
+                </button>
+            </div>
 
-        <h2
-          class="mb-5 lg:text-5xl text-2xl font-extrabold text-center lg:text-start"
-        >
-          We design thoughtful,<br />
-          liveable spaces
-        </h2>
-        <p class="mb-12 lg:mb-20 text-gray-600 text-center lg:text-start">
-          We craft spaces that marry beauty with functionality, ensuring comfort and practicality in every design, whether for a cozy home or a vibrant workspace.
-        </p>
+              <!-- heading and subheading -->
+              <div>
+                <h2 class="lg:text-5xl text-2xl font-extrabold text-center lg:text-start mb-6">
+                    We design thoughtful,<br/>
+                    liveable spaces
+                  </h2>
+                  <p class="text-gray-600 text-center lg:text-start">
+                    We craft spaces that marry beauty with functionality, ensuring
+                    comfort and practicality in every design, whether for a cozy
+                    home or a vibrant workspace.
+                  </p>
+              </div>
 
-        <!-- Card 1 -->
-        <div class="bg-white p-6 rounded-lg flex items-center gap-7 mb-10">
-          <div>
-            <img src="./assets/commercial.png" alt="">
-          </div>
-          <div class="w-1/2">
-            <h3 class="text-xl font-extrabold mb-4">Commercial</h3>
-            <p class="text-gray-600">
-              Innovative spaces that enhance business productivity and client engagement.
-            </p>
-          </div>
+              <!-- Card container -->
+              <div class="md:flex gap-5 lg:flex-col">
+                <!-- Card 1 -->
+                <div class="bg-white rounded-lg flex items-center gap-7 p-6 md:mb-0 mb-6">
+                  <div>
+                    <img src="./assets/commercial.png" alt="" />
+                  </div>
+                  <div class="lg:w-1/2 w-full">
+                    <h3 class="text-xl font-extrabold">Commercial</h3>
+                    <p class="text-gray-600">
+                      Innovative spaces that enhance business productivity and
+                      client engagement.
+                    </p>
+                  </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="bg-white rounded-lg flex items-center gap-7 p-6">
+                  <div>
+                    <img src="./assets/residential.png" alt="" />
+                  </div>
+                  <div class="lg:w-1/2 w-full">
+                    <h3 class="text-xl font-extrabold">Residential</h3>
+                    <p class="text-gray-600">
+                      Innovative spaces that enhance business productivity and
+                      client engagement.
+                    </p>
+                  </div>
+                </div>
+              </div>
         </div>
 
-        <!-- Card 2 -->
-
-        <div class="bg-white p-6 rounded-lg flex items-center gap-7">
-          <div>
-            <img src="./assets/residential.png" alt="">
-          </div>
-          <div class="w-1/2">
-            <h3 class="text-xl font-extrabold mb-4">Residential</h3>
-            <p class="text-gray-600">
-              Comfortable, personalized homes designed for your unique lifestyle needs.
-            </p>
-          </div>
+          <!-- Image -->
+          <img src="./assets/Rectangle.png" class="rounded-lg" />
         </div>
-      </div>
-
-      <!-- Image -->
-      <div>
-        <img src="./assets/Rectangle.png" alt="" class="w-full" />
-      </div>
-      <!-- vector absolut position -->
-      <div class="absolute lg:block hidden top-9 -left-10">
-        <img src="./assets/Vector.png" alt="">
+        <div class="absolute lg:block hidden top-5 left-12">
+            <img src="./assets/Vector.png" alt="">
+          </div>
       </div>
     </section>
 
